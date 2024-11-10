@@ -1,5 +1,4 @@
 # **Kliuchkovska Sofia**
-![ ](/Users/sofakliuchkovska/Desktop/cv/rsschool-cv)
 
 **Contact Info** : | kliuchsofia@gmail.com |  +48794575679 |
 ___
@@ -95,6 +94,7 @@ ___
 ```
 ___
 #### **Experience**
+_Freelance_
 ___
 #### **Education**
 

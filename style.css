@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f3f2;
+    color: #5f4b47;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #d8c8b4;
+    color: #5f4b47;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #f2e6d3;
+  }
+  
+  header img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+  }
+  
+  h4 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  a {
+    color: #c97d63;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0e1d4;
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #5f4b47;
+    border-bottom: 2px solid #d8c8b4;  /* Тонка лінія під заголовком */
+    padding-bottom: 5px;
+  }
+  
+  section h3 {
+    font-size: 1.4rem;
+    margin-top: 15px;
+    border-bottom: 1px solid #d8c8b4;  /* Лінія під підзаголовками */
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  pre {
+    background-color: #d8c8b4;
+    color: #5f4b47;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  pre code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d8c8b4;
+    color: #5f4b47;
+    border-top: 2px solid #f2e6d3;
+  }
+  

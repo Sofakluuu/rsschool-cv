@@ -1,1 +1,1 @@
-https://sofakluuu.github.io/rsschool-cv/cv
+https://sofakluuu.github.io/rsschool-cv/

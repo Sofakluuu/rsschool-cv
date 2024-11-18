@@ -19,7 +19,37 @@ body {
     border-radius: 50%;
     border: 5px solid #fff;
   }
-  
+
+  nav {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    border-bottom: 2px solid #f2e6d3;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5f4b47;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: #c97d63;
+}
+
   h4 {
     font-size: 2rem;
     margin: 10px 0;
@@ -52,14 +82,14 @@ body {
     font-size: 1.8rem;
     margin-bottom: 10px;
     color: #5f4b47;
-    border-bottom: 2px solid #d8c8b4;  /* Тонка лінія під заголовком */
+    border-bottom: 2px solid #d8c8b4;  
     padding-bottom: 5px;
   }
   
   section h3 {
     font-size: 1.4rem;
     margin-top: 15px;
-    border-bottom: 1px solid #d8c8b4;  /* Лінія під підзаголовками */
+    border-bottom: 1px solid #d8c8b4;  
     padding-bottom: 5px;
   }
   

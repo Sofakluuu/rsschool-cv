@@ -1,0 +1,528 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.36rem;
+    text-transform: uppercase;
+    margin: 0 0 12px 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 152%;
+    letter-spacing: 0.24rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 152%;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.0375rem;
+    text-transform: uppercase;
+}
+
+actionlarge {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 152%;
+    letter-spacing: 0.24rem;
+    text-transform: uppercase;  
+}
+
+actionsmall {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.0375rem;
+    text-transform: uppercase;
+}
+
+.caption {
+    font-family: Allura;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.075rem;
+}
+
+
+.header2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 152%;
+    letter-spacing: 0.24rem;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 148%
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    white-space: nowrap;
+    height: 40px;
+    padding: 12px 0;
+}
+
+header div {
+    width: 100%;
+    max-width: 1276px;
+    margin: auto;
+}
+
+logo {
+    display: inline-block;
+    text-align: center;
+    height: 24px;
+    padding: 8px 20px;
+}
+
+logo img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+
+}
+
+logo span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 8px;
+}
+
+#logo-link span {
+    color: #181C29; 
+}
+
+header nav {
+    display: inline-block;
+    text-align: right;
+    height: 40px;
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+header nav ul li a {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #181C29;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 70, 70, 0.1);    
+    color: #FF4646; 
+    border-radius: 12px; 
+}
+
+header nav ul li:not(:last-child) {
+    margin-right: 8px;
+}
+
+hero {
+    background-image: url('bg-ball.png'), url('bg-snow.png');
+    background-position: center;
+    background-color: #ff4646;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 60px 8px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+hero div {
+    white-space: nowrap;
+    width: 426px;
+    height: 404px;
+    margin: auto;
+    color: #FFF;
+    padding: 60px 0;
+    box-sizing: border-box;
+}
+
+.christmascontent p,
+.christmascontent button {
+    margin-bottom: 12px;
+}
+
+
+.christmascontent>*:last-child {
+    margin-bottom: 0;
+}
+
+hero p {
+    text-align: center;
+}
+
+hero p,
+about p,
+bestgifts p,
+cta p {
+    margin: 0;
+}
+
+button {
+    height: 56px;
+    width: 235px;
+    background-color: #181c29;
+    border-radius: 20px;
+    padding: 20px 32px;
+    white-space: nowrap;
+    color: #FFF;
+    margin: 0 auto;
+    display: block;
+    border: none;
+}
+
+
+about {
+    width: 100%;
+    display: block;
+    background-color: #ff4646;
+    background-image: url('bg-snow.png');
+    background-position: center;
+    place-items: center;
+    padding: 60px 0;
+    background-size: cover;
+}
+
+about centered {
+    display: block;
+    background-color: white;
+    width: 100%;
+    max-width: 1276px;
+    border-radius: 20px;
+    font-size: 0;
+    margin: auto;
+}
+
+about div {
+    padding: 0 60px;
+    width: 50%;
+    max-width: 638px;
+    min-width: 376px;
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+
+about p.caption {
+    color: #FF4646;
+}
+
+div.aboutinfo {
+    padding: 60px 0;
+    box-sizing: border-box;
+    text-align: left;
+    width: 426px;
+    height: 328px;
+}
+
+div.santa {
+    background-image: url('santa.png');
+    background-size: cover;
+    background-position: center;
+    height: 528px;
+    border-radius: 20px;
+}
+
+bestgifts {
+    background-color: #ff4646;
+    width: 100%;
+    height: 554px;
+    display: block;
+    background-image: url('bg-snow.png');
+    padding: 60px 8px;
+    box-sizing: border-box;
+    background-size: cover;
+
+}
+
+.bestgifts {
+    display: block;
+    width: 100%;
+    max-width: 1276px;
+    border-radius: 20px;
+    font-size: 0;
+    margin: auto;
+}
+
+.bestgiftstitle {
+    white-space: nowrap;
+    width: 426px;
+    height: 72px;
+    place-items: center;
+    margin: auto;
+    color: #FFF;
+    padding: 0;
+}
+
+.bestgiftstitle .caption {
+    margin-bottom: 12px; 
+}
+
+.bestgiftstitle h2 {
+    margin: 0; 
+}
+
+/*.giftcard {
+    width: 310px;
+    height: 342px;
+    background-color: #ECF3F8 ;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-right: 12px;
+    margin-top: 20px;
+}*/
+
+.giftcard:last-child {
+    margin-right: 0;
+  }
+
+
+
+/*     ---------     */
+.giftcard {
+    width: 310px;
+    height: 342px;
+    background-color: #ECF3F8; 
+    display: inline-block; 
+    box-sizing: border-box; 
+    border-radius: 20px; 
+    margin-right: 12px;
+    margin-top: 20px;
+    overflow: hidden; 
+}
+
+.present {
+    width: 100%; 
+    height: 230px; 
+    background-image: url('present.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.snowman {
+    width: 100%; 
+    height: 230px; 
+    background-image: url('snowman.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.crtree {
+    width: 100%; 
+    height: 230px; 
+    background-image: url('crtree.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.presentinfo {
+    width: 100%; 
+    height: 112px; 
+    background-color: #FFFFFF; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 20px; 
+}
+
+.bestgifts .presentinfo .forhealth {
+    color: #06A44F; 
+}
+
+.bestgifts .presentinfo .forharmony {
+    color: #FF43F7;
+}
+
+.presentinfo h4 {
+    color: #4361FF;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.presentinfo h3 {
+    margin: 0;
+}
+
+/*     ---------     */
+
+cta {
+    width: 100%;
+    height: 668px;
+    display: block;
+    background-image: url('bg-forest.png'), url('bg-snow.png');
+    padding: 60px 8px;
+    place-items: center;
+    box-sizing: border-box;
+    background-color: #ff4646;
+    background-size: cover;
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+
+cta div {
+    padding: 60px 0;
+    margin: auto;
+    width: 1276px;
+    height: 548px;
+
+}
+
+.ctafilling {
+    white-space: nowrap;
+    width: 428px;
+    height: 426px;
+    place-items: center;
+    margin: auto;
+    color: #FFF;
+    padding: 60px 0;
+}
+
+.ctafilling .header2,
+.ctafilling button {
+    margin-bottom: 20px;
+}
+
+.ctafilling .header2 {
+    text-align: center;
+}
+
+.cta button {
+    margin-bottom: 20px;
+}
+
+.cta>*:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    width: 100%;
+    height: 496px;
+    display: block;
+    background-color: #FFF;
+    padding: 60px 8px;
+    box-sizing: border-box;
+}
+.contacts {
+    display: block;
+    width: 100%;
+    max-width: 1276px;
+    font-size: 0;
+    margin: auto;
+}
+.communication {
+    width: 417.33px;
+    height: 204px;
+    background-color:#ECF3F8 ;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-right: 12px;
+    margin-bottom: 60px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    position: relative; 
+}
+
+.communication img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover; 
+}
+
+.communication > * {
+    display: block; 
+    margin: auto; 
+    margin-bottom: 12px;
+}
+
+.communication:last-child {
+    margin-right: 0;
+  }
+
+.socials {
+    white-space: nowrap;
+    width: 1276px;
+    height: 112px;
+    place-items: center;
+    margin: auto;
+    color: #181c29;
+    padding: 0;
+}
+
+.icons img {
+    margin-right: 12px;
+}
+
+.icons img:last-child {
+    margin-right: 0; 
+}
+
+.socials > * {
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+.socials > p.caption {
+    margin-bottom: 0;
+}
+
+.caption a {
+    text-decoration: none; 
+    color: inherit; 
+}

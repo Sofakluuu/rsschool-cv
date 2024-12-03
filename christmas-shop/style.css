@@ -420,6 +420,16 @@ bestgifts {
     color: inherit;
 }
 
+/*     ---------     */
+.giftcontainer a {
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.giftcontainer a:hover {
+    color: #ff4646; 
+    transform: scale(1.05);
+}
+
 .giftcard:hover h3 {
     color: #FF4646;
 }
@@ -622,6 +632,11 @@ footer {
     margin: 0 0 12px; 
 }
 
+.communication a {
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
 .communication a:hover {
     color: #ff4646; 
+    transform: scale(1.1);
 }

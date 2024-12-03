@@ -94,6 +94,13 @@ h4 {
     line-height: 148%
 }
 
+.slidertext {
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 header {
     width: 100%;
     background-color: white;
@@ -309,6 +316,30 @@ slider {
     box-sizing: border-box;
     background-size: cover;
 }
+
+.slider {
+    margin: auto;
+}
+
+.slidertitle{
+    place-items: center;
+    margin: auto;
+    width: 426px;
+    height: 72px;
+    color: #FFF;
+    padding: 0;
+}
+
+.slidertitle .caption {
+    margin-bottom: 12px; 
+    margin-top: 0;
+}
+
+.slidertitle .h2 {
+    margin-bottom: 0px; 
+    margin-top: 0;
+}
+
 
 
 /*slider */
@@ -571,4 +602,26 @@ footer {
 .caption a {
     text-decoration: none; 
     color: inherit; 
+}
+
+.communication a {
+    text-decoration: none; 
+    color: inherit; 
+    display: inline-block; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.communication img {
+    display: block; 
+    margin: 0 auto 12px; 
+}
+
+.communication p,
+.communication h3 {
+    margin: 0 0 12px; 
+}
+
+.communication a:hover {
+    color: #ff4646; 
 }

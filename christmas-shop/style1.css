@@ -51,7 +51,7 @@ h4 {
     text-transform: uppercase;
 }
 
-#actionlarge {
+.actionlarge {
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
@@ -189,6 +189,27 @@ hero div {
     color: #FFF;
     padding: 60px 0;
     box-sizing: border-box;
+}
+
+.button {
+    background-color: #181C29;
+    width: 235px;
+    height: 56px;
+    border-radius: 20px;
+    margin: auto;
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none; 
+    color: inherit;
+    padding: 20px 32px;
+}
+
+.marginbottom12 {
+    margin-bottom: 12px;
+}
+
+.marginbottom20 {
+    margin-bottom: 20px;
 }
 
 .christmascontent p,

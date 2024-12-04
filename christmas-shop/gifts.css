@@ -1,0 +1,93 @@
+#giftssection {
+    background-color: #ff4646;
+    width: 100%;
+    height: 1394px;
+    border-radius: 20px;
+    padding: 60px 8px;
+    display: block;
+    background-image: url('bg-garland.png');
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header nav ul li a.nohover:hover {
+    background-color:#FFF;    
+    color: #181C29; 
+    border-radius: 0; 
+}
+
+.giftssection div {
+    color: #FFF;
+}
+
+
+
+.giftstab {
+    width: 472px;
+    height: 40px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin-bottom: 8px;
+}
+
+.giftstab .actionsmall {
+    text-decoration: none; 
+    color: #FFF; 
+    font-size: 14px; 
+    height: 40px; 
+    padding: 0 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    transition: background-color 0.3s ease, border-radius 0.3s ease, color 0.3s ease; 
+}
+
+.giftstab .actionsmall:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 12px; 
+}
+
+.giftstab a.nohoverr:hover{
+    pointer-events: auto;  
+    background-color: transparent;  
+    color: #FFF;  
+    border-radius: 0;  
+    cursor: pointer; 
+}
+
+
+.giftssection {
+    width: 1276px;
+    height: 1274px;
+    margin: auto;
+    box-sizing: border-box; 
+    display: block;
+}
+
+.giftcard {
+    margin-top: 12px
+}
+
+.giftssection .presentinfo .forhealth {
+    color: #06A44F; 
+}
+.giftssection .presentinfo .forharmony {
+    color: #FF43F7;
+}
+
+.giftssection .presentinfo .forwork {
+    color: #4361FF;
+}
+
+.giftssection .presentinfo  h3{
+    color: #181C29;
+}
+
+.giftcard:hover h3 {
+    color: #ff4646; 
+  }
+  
+

@@ -1,108 +1,34 @@
-# **Kliuchkovska Sofia**
+# My TypeScript Journey
 
-**Contact Info** : | kliuchsofia@gmail.com |  +48794575679 |
+## Course 'Beginner's TypeScript'
 
-#### **About me**
-_My main goal is to develop and improve my technical and soft skills. I am motivated by the opportunity to learn new technologies and solve complex problems. I believe that learning is a lifelong process it is an opportunity to gain new knowledge and improve the knowledge already acquired. Enthusiasm and desire to develop, learning something new, implementing real projects, working with more experienced colleagues are also important all this gives me the opportunity to make everyone better, I strive to learn from every situation. I understand that being a junior developer means not only relying on the team to guide me, but also actively looking for solutions to problems, expanding my knowledge base and gaining more and more skills and applying them in new contexts._
+Here is my result of the course: 
 
-#### **Skills** 
-* Technical: 
-  * Python 
-  * HTML/CSS
-* Soft skills:  
-  * Time management 
-  * skills Self-learning  
-  * Flexibility 
-  * Teamwork 
-  * Problem solving  
-  * Communication Creativity
-* Languages: 
-  * English
-  * German
-  * Ukrainian
-  * Polish
+I completed the 'Beginner's TypeScript' course from Total TypeScript. This course provided a solid foundation in TypeScript, covering topics such as types, interfaces, functions, and classes. The interactive lessons were engaging, and I appreciated the practical examples that helped me apply what I learned immediately.
 
-#### **Code examples**
-[**Click here to go to repository**](https://github.com/Sofakluuu/SPtask.git)
-```
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>CatPhotoApp</title>
-  </head>
-  <body>
-    <main>
-      <h1>CatPhotoApp</h1>
-      <section>
-        <h2>Cat Photos</h2>
-        <!-- TODO: Add link to cat photos -->
-        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-      </section>
-      <section>
-        <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
-        </figure>
-      </section>
-      <section>
-        <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-          <fieldset>
-            <legend>Is your cat an indoor or outdoor cat?</legend>
-            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
-            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
-          </fieldset>
-          <fieldset>
-            <legend>What's your cat's personality?</legend>
-            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
-            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
-            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
-          </fieldset>
-          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>
-        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
-      </p>
-    </footer>
-  </body>
-</html>
+Feedback: 
 
-```
+- The course was well-structured, starting with the basics and progressively building up to more advanced topics.
+- I found the exercises especially helpful in reinforcing my understanding of TypeScript's type system.
+- The course could benefit from more real-world examples of how TypeScript is used in actual projects.
 
-#### **Experience**
-_Freelance_
+## Course 'Learn TypeScript step by step in an interactive environment'
 
-#### **Education**
+Here is my result of the course: 
 
-_Sep 2020 - Jun 2024_
-[**Ivan Franko National University of Lviv**](https://lnu.edu.ua/en/)  
-**Bachelor’s degree in Applied Mathematics and Systems Analysis**
+I also completed the 'Learn TypeScript step by step in an interactive environment' from Learn TypeScript Online. This course focused on giving hands-on experience with TypeScript in an interactive coding environment. It helped me learn TypeScript syntax and features step by step with instant feedback on my code.
 
-_Since Oct 2024_
-[**The Rolling Scopes School**][rsapp]  
-**JS/FE Course EN 2024Q4**
+Feedback:
 
-[rsapp]:<https://rs.school/>
+- The interactive environment made learning very engaging and allowed me to practice immediately after learning new concepts.
+- The course provided clear explanations and examples, but I felt it lacked a bit more depth on some advanced TypeScript topics.
+- The challenge sections were fun and pushed me to apply what I had learned in creative ways.
+
+## Reflections
+
+After completing both courses, I feel much more comfortable using TypeScript for both personal and professional projects. 
+
+- The 'Beginner's TypeScript' course helped me understand the fundamentals, which laid a strong foundation for the more hands-on learning experience in the 'Learn TypeScript step by step in an interactive environment' course.
+- The interactive aspect of the second course helped me retain the material better and gave me confidence in using TypeScript for practical coding tasks.
+
+Both courses contributed significantly to my growth as a developer. I now have a solid grasp of TypeScript's core concepts, which will help me write more reliable and maintainable code in future projects.

@@ -1,1 +1,1 @@
-# rsschool-cv
+https://sofakluuu.github.io/rsschool-cv/
